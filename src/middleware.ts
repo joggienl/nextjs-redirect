@@ -9,7 +9,7 @@ export const config = {
 		 * - _next/image (image optimization files)
 		 */
 		'/',
-		'/((?!api|_next/static|_next/image).*)',
+		'/((?!api|_next/static|_next/image|no-middleware).*)',
 	],
 }
 
