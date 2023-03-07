@@ -9,6 +9,11 @@ const nextConfig = {
 				destination: '/post',
 				permanent: false,
 			},
+			{
+				source: '/no-middleware/postings',
+				destination: '/no-middleware/post',
+				permanent: false,
+			},
 		]
 	},
 }
